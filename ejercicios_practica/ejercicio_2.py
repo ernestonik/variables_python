@@ -11,12 +11,15 @@
 
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
+from ipaddress import summarize_address_range
+
 print('Ingrese por consola el primer número entero a operar:')
 numero_1 = int(input())
+print ("Usted ingreso: ", numero_1)
 
 print('Ingrese por consola el segundo número entero a operar:')
 numero_2 = int(input())
-
+print ("Usted ingreso: ", numero_2)
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
 
@@ -27,9 +30,19 @@ numero_2 = int(input())
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
-
+suma = numero_1 + numero_2
+print ("La suma de", numero_1, "y", numero_2, "es igual a", suma)
+print ("Gracias por su consulta")
 # Resta
-
+resta = numero_1 - numero_2
+print ("La resta de", numero_1, "y", numero_2, "es igual a", resta)
+print ("Gracias por su consulta")
 # División
-
+division = numero_1 / numero_2
+print ("La división de", numero_1, "y", numero_2, "es igual a", division)
+print ("Gracias por su consulta")
 # Multiplicación
+multiplicacion = numero_1 * numero_2
+print ("La multiplicación de", numero_1, "y", numero_2, "es igual a", multiplicacion)
+print ("Gracias por su consulta")
+ 
