@@ -12,11 +12,17 @@
 # Ingrese dos palabras y arme combinaciones con ella
 print('Ingrese palabra 1:')
 palabra_1 = str(input())
+p_l1 = len(palabra_1)
 
 print('Ingrese palabra 2:')
 palabra_2 = str(input())
+p_l2 = len(palabra_2)
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+
+mezcla = (palabra_1[0:3] + palabra_2[0:2])
+print ("Tu resultado es: ", mezcla.upper())
+print ("Gracias por tu consulta")
