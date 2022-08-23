@@ -30,6 +30,18 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   Nuevamente debe aclarar el campo de cada uno, para el que lo lea
   entienda de que se está hablando.
 '''
+print ("Ingrese su nombre completo:")
+nombre = str (input())
+print ("Ingrese su apellido")
+apellido = str(input())
+print ("Ingrese su numero de documento sin puntos:")
+dni = int (input ())
+print ("Ingrese su edad:")
+edad = int(input())
+print ("Ingrese su altura:")
+alto = float (input())
 
+print ("Para el registro su nombre completo es", nombre.upper(), apellido.upper(), "y su numero de DNI es" , dni)
+print ("Su nombre completo es", nombre.upper(), apellido.upper(), "cuya edad es" , edad, "y su altura es de", alto, "mtrs")
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio

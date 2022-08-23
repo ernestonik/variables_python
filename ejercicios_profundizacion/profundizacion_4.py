@@ -45,3 +45,17 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print ("Ingrese el nombre y apellido del PRIMER padre:")
+P1 = str (input())
+print ("Ingrese el nombre y apellido del SEGUNDO padre:")
+P2 = str(input())
+print ("Ingrese SU nombre por favor:")
+H1 = str(input())
+
+A0, A1 = P1.split()
+A3, A2 = P2.split ()
+print ("Su nombre completo quedaria armado como:", H1.upper(), A1.upper(), A2.upper())
+print ("Muchas gracias por su consulta!")
+
+
