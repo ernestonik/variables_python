@@ -34,16 +34,47 @@ numero1 = float(input())
 print ("Ingresa el segundo numero:")
 numero2 = float(input())
 
+
+# Imprimimos el menú en pantalla
+print("""
+1) Suma       
+2) Resta
+3) Multiplicacion
+4) Division
+5) Potencia
+    """)
+
+# input
+print ("Seleccione algo:")
+opcion= int(input())
+
 Suma = (numero1 + numero2)
-print ("El resultado de la suma entre", numero1, "y" , numero2 , "es" , Suma)
 Resta = (numero1 - numero2)
-print ("El resultado de la resta entre", numero1, "y" , numero2 , "es" , Resta)
 Multip = (numero1 * numero2)
-print ("El resultado de la multiplicacion entre", numero1, "y" , numero2 , "es" , Multip)
 Division = (numero1 / numero2)
-print ("El resultado de la division entre", numero1, "y" , numero2 , "es" , Division)
 Exponente = (numero1 ** numero2)
-print ("El resultado de la potencia entre", numero1, "y" , numero2 , "es" , Exponente)
+
+
+# eleccion
+if opcion == 1 :
+  print (" ")
+  print ("El resultado de la suma entre", numero1, "y" , numero2 , "es" , Suma) 
+elif opcion == 2 :
+   print (" ")
+   print ("El resultado de la resta entre", numero1, "y" , numero2 , "es" , Resta)  
+elif opcion == 3 :
+   print (" ")
+   print ("El resultado de la multiplicacion entre", numero1, "y" , numero2 , "es" , Multip)
+elif opcion == 4 :
+  print (" ")
+  print ("El resultado de la division entre", numero1, "y" , numero2 , "es" , Division)
+elif opcion == 5 :
+    print (" ")
+    print ("El resultado de la potencia entre", numero1, "y" , numero2 , "es" , Exponente)
+else:
+    print (" ")
+    print("opcion erronea")
+    
 
 
 print('¡Nuestra primera calculadora!')
